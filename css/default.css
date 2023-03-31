@@ -12,7 +12,8 @@ a {
 }
 
 a:hover {
-    color: #C4BBF0;
+    color: #868686;
+    transition: 1000ms;
 }
 
 .al-font-light {
@@ -20,17 +21,21 @@ a:hover {
 }
 
 .al-section-first {
-    background-color: #363B4E
+    background-color: #404258;
+    color: aliceblue;
 }
 
 .al-section-second {
-    background-color: #4F3B78;
+    background-color: #474E68;
+    color: aliceblue;
 }
 
 .al-section-third {
-    background-color: #927FBF;
+    background-color: #50577A;
+    color: aliceblue;
 }
 
 .al-section-fourth {
-    background-color: #C4BBF0;
+    background-color: #6B728E;
+    color: aliceblue;
 }
