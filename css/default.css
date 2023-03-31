@@ -1,7 +1,18 @@
 .al-main-font {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    color: #C4BBF0;
 }
 
 .al-font-light {
@@ -9,5 +20,17 @@
 }
 
 .al-section-first {
-    background-color: #0B2447
+    background-color: #363B4E
+}
+
+.al-section-second {
+    background-color: #4F3B78;
+}
+
+.al-section-third {
+    background-color: #927FBF;
+}
+
+.al-section-fourth {
+    background-color: #C4BBF0;
 }
