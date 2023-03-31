@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="fullpage/fullpage.css" />
+        <script src="vendors/easings.min.js"></script>
+        <script type="text/javascript" src="fullpage/fullpage.js"></script>
+        <title>home - alamov.xyz</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/default.css">
+    </head>
+    <body>
+        <div id="fullpage" class="al-main-font">
+            <div class="section al-section-first">
+                <div class="al-font-light">Slide 1</div>
+            </div>
+            <div class="section">Some section</div>
+            <div class="section">Some section</div>
+            <div class="section">Some section</div>
+        </div>
+
+        <script>
+            new fullpage('#fullpage', {
+                autoScrolling:true,
+                scrollHorizontally: true,
+                lazyLoading: true,
+                observer: true,
+                credits: { enabled: true, label: 'Made with fullPage.js', position: 'right'}
+            });
+        </script>
+    </body>
+</html>
