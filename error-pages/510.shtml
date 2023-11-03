@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>network authentication required - alamov.tech</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet"> 
+        <link rel="shortcut icon" href="../ico/logo.png" />
+        <link rel="stylesheet" href="../css/uikit.css" />
+	    <link rel="stylesheet" href="../css/default.css" />
+	    <!-- UIkit JS -->
+	    <script src="../js/uikit.min.js"></script>
+	    <script src="../js/uikit-icons.min.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        .custom-font {
+            font-family:'Fredoka', sans-serif !important;
+        }
+    </style>
+    <body class="al-background-custom">
+        <div class="uk-container">
+            <div class="uk-position-center">
+                <h2 class="custom-font uk-text-light">oops! network authentication required.</h2>
+            </div>
+        </div>
+    </body>
+</html>
