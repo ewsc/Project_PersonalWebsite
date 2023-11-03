@@ -1,0 +1,13 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^alamov\.tech$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.alamov\.tech$
+RewriteRule ^/?$ "https\:\/\/alamov\.tech\/" [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^/?(.*)$ /$1.php [L]
