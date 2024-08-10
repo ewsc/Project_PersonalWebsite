@@ -16,13 +16,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet"> 
 </head>
 
+<script>
+    window.onload = function() {
+        let preloader = document.getElementById('preloader');
+        setTimeout(() => {
+            preloader.style.display = 'none';
+        }, 1000);
+    }
+</script>
+
 <body class="al-background-custom">
 
+
+	<div class="preloader" id="preloader">
+    		<div uk-spinner="ratio: 3"></div>
+	</div>
+	
 
 	<div class="uk-container uk-position-center">
 		<div uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 400; repeat: false">
 			<div class="uk-margin-remove uk-card uk-text-light uk-text-center">
-				<span class="loader uk-center"></span>	
+				<img src="ico/fontic.png" width="500vw">
 			</div>
 			<div class="uk-margin-remove uk-card uk-text-light uk-text-center">
 				<p>welcome to <b uk-tooltip="ex. alamov.tech">ewsc.wtf.</b><br>this site is reserved for wider future use. stay in touch.</p>
