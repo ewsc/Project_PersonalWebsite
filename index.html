@@ -23,6 +23,8 @@
             preloader.style.display = 'none';
         }, 1000);
     }
+
+    document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
 
 <body class="al-background-custom">
@@ -50,7 +52,7 @@
 	<div class="uk-container uk-position-bottom">
 		<div uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 400; repeat: false">
 			<footer class="uk-position-bottom uk-padding-remove">
-				<div class="uk-text-muted uk-card uk-text-center uk-margin-remove-bottom"><p class="uk-margin-remove">alamov azam, <?php echo date("Y");?></p></div>
+				<div class="uk-text-muted uk-card uk-text-center uk-margin-remove-bottom"><p class="uk-margin-remove">alamov azam, <span id="year"></span></p></div>
 				<div class="uk-text-muted uk-card uk-text-center uk-margin-remove-top">
 					<ul class="uk-breadcrumb">
 						<li><a href="mailto:alamovazamjon@gmail.com" target="_blank">mail</a></li>
